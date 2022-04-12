@@ -6,6 +6,7 @@ description: 'Descripción de tu blog post'
 
 Hola!<br/>
 En este post te contaré todas mis experiencias dentro de Launch-X de Innovaccion Virtual.<br/>
+
 👩‍🚀👨‍🚀 La tripulación de esta aventura está compuesta por un o una Mission Commander, quien lidera cada una de las misiones.
 
 🔭 Explorer es aquella persona que se ha registrado en esta aventura, y si cumple con los requerimientos necesarios, tendrá acceso a una entrevista de trabajo con alguno de los socios de negocio para ocupar alguna vacante.
