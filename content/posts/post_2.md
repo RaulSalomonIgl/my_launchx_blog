@@ -33,12 +33,14 @@ Investigando descubrí que algunos comandos habían sido deshabilitados o sustit
 ### Crear un nuevo Archivo 
 Para crear un nuevo archivo vacío se ejecuta dentro de la terminal el siguiente comando:
 >type NUL > "Nombre del archivo"
+
 Sí, lo que se desea es crear un archivo con algún contenido, se ejecutara el comando:
 >copy con "Nombre del archivo"
 
 ### Editar un archivo
 Cuando tenemos algún archivo el cual queremos poder editar su contenido, utilizamos el comando:
 >copy con "Nombre del archivo"
+
 Dentro de la edición del archivo existen 2 casos:
 El primero es si editamos un archivo ya creado, al momento de presionar un "Enter" se mostrará un mensaje en donde preguntara si deseamos realizar cambios en el archivo. Al seleccionar una respuesta afirmativa y pulsar enter podremos seguir editando sin la interrupción al pulsar "Enter". Al terminar para salir y conservar los cambios utilizamos las teclas "ctrl + c"
 
@@ -52,13 +54,13 @@ Para realizar esta etapa realizamos las instalaciones y las configuraciones de l
 # Trabajando con Git como control de versiones 
 Sobre git fue necesario aprender y poder realizar ciertas acciones por cuenta propia utilizando solo comandos de git:
 
-💡 Instalar git localmente y agregar nuestro usuario (nombre y correo).
-💡 Comprender qué es el branch principal (master o main).
-💡 Crear y eliminar un nuevo repositorio local en un directorio.
-💡 Entender cómo opera git, a través de los stages: working area, staging, local repository & remote repository.
-💡 Realizar un commit: comandos **add** y **commit**.
-💡 Ver el log de commits.
-💡 Ver el contenido de un commit.
+- 💡 Instalar git localmente y agregar nuestro usuario (nombre y correo).
+- 💡 Comprender qué es el branch principal (master o main).
+- 💡 Crear y eliminar un nuevo repositorio local en un directorio.
+- 💡 Entender cómo opera git, a través de los stages: working area, staging, local repository & remote repository.
+- 💡 Realizar un commit: comandos **add** y **commit**.
+- 💡 Ver el log de commits.
+- 💡 Ver el contenido de un commit.
 
 # Ejercicios
 Una vez que tuvimos nuestro ambiente de desarrollo, comenzamos a realizar los ejercicios.
