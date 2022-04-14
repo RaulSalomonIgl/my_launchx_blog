@@ -6,7 +6,17 @@
     <description>Recent content in Launch X Bitácora de viaje on Bitácora de Viaje - Raúl Arturo Salomon Iglesias</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 12 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://raulsalomonigl.github.io/my_launchx_blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://raulsalomonigl.github.io/my_launchx_blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Misión Node JS - Semana 1</title>
+      <link>https://raulsalomonigl.github.io/my_launchx_blog/posts/post_2/</link>
+      <pubDate>Thu, 14 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://raulsalomonigl.github.io/my_launchx_blog/posts/post_2/</guid>
+      <description>En esta primera semana nos adentramos al mundo de JavaScript, comenzamos a familiarizarnos con este lenguaje como un lenguaje de programación. Realizamos un recorrido para observar sus fortalezas y debilidades a fin de comprender cómo funciona Node JS y cómo podríamos comenzarlo a utilizar.
+Aventuras  Explorar los usos y entender los conceptos del control de versiones Git. Uso de GitHub como plataforma para hospedar código, Pull Requests y Forks. Contribución a un repo a través de un Pull Request.</description>
+    </item>
+    
     <item>
       <title>Mi ruta de aprendizaje</title>
       <link>https://raulsalomonigl.github.io/my_launchx_blog/posts/post_1/</link>

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Misión Node JS - Semana 1 - Bitácora de Viaje - Raúl Arturo Salomon Iglesias</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="https://raulsalomonigl.github.io/my_launchx_blog/favicon.png">
+
+  
+  
+  <link rel="stylesheet" href="../../css/style.min.4f4767d518839223786999cdb69fc7a63791220ecccd236bc732a5f998aaee2d.css">
+  
+
+  
+    <meta name="description" content="Experiencias y aprendizajes durante la primera semana de la misión Back-End con Node JS"/>
+    <meta property="og:title" content="Misión Node JS - Semana 1"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://raulsalomonigl.github.io/my_launchx_blog/posts/post_2/"/>
+    
+    <meta property="og:description" content="Experiencias y aprendizajes durante la primera semana de la misión Back-End con Node JS"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@RaulSalomon09"/>
+    <meta name="twitter:creator" content="@RaulSalomon09"/>
+  
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+
+
+
+
+<body class='page frame page-blog-single'>
+  <div id="wrapper" class="wrapper">
+    <div class='header'>
+  <a class="header-logo" href="https://raulsalomonigl.github.io/my_launchx_blog/">Bitácora de Viaje - Raúl Arturo Salomon Iglesias</a>
+  <div class="menu-main">
+    <ul>
+        
+        
+            <li class="menu-item-aboutme">
+                <a href="../../pages/about/">AboutMe</a>
+            </li>
+        
+            <li class="menu-item-posts">
+                <a href="../../posts/">Posts</a>
+            </li>
+        
+    </ul>
+  </div>
+</div>
+    
+  <div class="blog">
+    
+    <div class="intro">
+      <h1>Misión Node JS - Semana 1<span class="dot">.</span></h1>
+      
+    </div>
+    <div class="content">
+      <p>En esta primera semana nos adentramos al mundo de JavaScript,  comenzamos a familiarizarnos con este lenguaje como  un lenguaje de programación.
+Realizamos un recorrido para observar sus fortalezas y debilidades a fin de comprender cómo funciona Node JS y cómo podríamos comenzarlo a utilizar.</p>
+<h1 id="aventuras">Aventuras</h1>
+<ul>
+<li>Explorar los usos y entender los conceptos del control de versiones Git.</li>
+<li>Uso de GitHub como plataforma para hospedar código, Pull Requests y Forks.</li>
+<li>Contribución a un repo a través de un Pull Request.</li>
+<li>La importancia de las herramientas en el desarrollo de software: Git y GitHub.</li>
+<li>JavaScript como lenguaje de programación y Node JS como entorno de ejecución.</li>
+<li>Scripting (módulos, contextos, ES6, CommonJS, NPM).</li>
+</ul>
+<h1 id="la-importancia-de-las-herramientas-en-el-desarrollo-de-software">La importancia de las herramientas en el desarrollo de software</h1>
+<p>Las herramientas son piezas importantes de cualquier profesión, nos ayudan a ahorrar tiempo, esfuerzo, facilitar y mejorar nuestras actividades.
+Dentro del desarrollo de software, normalmente el uso y dominio de herramientas es algo que se considera obvio, no podría llevarse a cabo la ejecución del software sin herramientas, por lo que su dominio y practica también impactan en la forma en cómo encontramos las soluciones.</p>
+<h2 id="cuáles-son-las-herramientas-de-un-desarrollador-de-software">¿Cuáles son las herramientas de un desarrollador de software?</h2>
+<ul>
+<li>Conocer nuestro Sistema Operativo a través de la Línea de Comando.</li>
+<li>Comprender el sistema de control de versiones (Git y GitHub).</li>
+<li>Uso de un editor de texto y sus plugins.</li>
+</ul>
+<h1 id="familiarizándonos-con-nuestro-sistema-operativo">Familiarizándonos con nuestro sistema operativo</h1>
+<p>Para familiarizarnos con nuestro sistema operativo investigamos sobre su interacción mediante las consolas de comandos.
+Para mi sistema operativo, Windows, utilicé Command Prompt investigando sus comandos básicos y de archivos.
+Investigando descubrí que algunos comandos habían sido deshabilitados o sustituidos en las versiones actuales del sistema, dentro del manejo de la terminal en Windows existe una cantidad de información significativamente baja y desactualizada en comparación a otros sistemas.</p>
+<h2 id="manejo-de-archivos">Manejo de archivos</h2>
+<h3 id="crear-un-nuevo-archivo">Crear un nuevo Archivo</h3>
+<p>Para crear un nuevo archivo vacío se ejecuta dentro de la terminal el siguiente comando:</p>
+<blockquote>
+<p>type NUL &gt; &ldquo;Nombre del archivo&rdquo;
+Sí, lo que se desea es crear un archivo con algún contenido, se ejecutara el comando:
+copy con &ldquo;Nombre del archivo&rdquo;</p>
+</blockquote>
+<h3 id="editar-un-archivo">Editar un archivo</h3>
+<p>Cuando tenemos algún archivo el cual queremos poder editar su contenido, utilizamos el comando:</p>
+<blockquote>
+<p>copy con &ldquo;Nombre del archivo&rdquo;
+Dentro de la edición del archivo existen 2 casos:
+El primero es si editamos un archivo ya creado, al momento de presionar un &ldquo;Enter&rdquo; se mostrará un mensaje en donde preguntara si deseamos realizar cambios en el archivo. Al seleccionar una respuesta afirmativa y pulsar enter podremos seguir editando sin la interrupción al pulsar &ldquo;Enter&rdquo;. Al terminar para salir y conservar los cambios utilizamos las teclas &ldquo;ctrl + c&rdquo;</p>
+</blockquote>
+<h3 id="visualizar-contenido-de-un-archivo">Visualizar contenido de un archivo</h3>
+<p>Para poder visualizar el contenido de un archivo utilizamos el comando:</p>
+<blockquote>
+<p>type &ldquo;Nombre del archivo&rdquo;</p>
+</blockquote>
+<h1 id="instalación-del-ambiente-de-desarrollo">Instalación del ambiente de desarrollo</h1>
+<p>Para realizar esta etapa realizamos las instalaciones y las configuraciones de las herramientas necesarias, por ejemplo, Git,  GitHub, Node JS y editores de texto (VSCode).</p>
+<h1 id="trabajando-con-git-como-control-de-versiones">Trabajando con Git como control de versiones</h1>
+<p>Sobre git fue necesario aprender y poder realizar ciertas acciones por cuenta propia utilizando solo comandos de git:</p>
+<p>💡 Instalar git localmente y agregar nuestro usuario (nombre y correo).
+💡 Comprender qué es el branch principal (master o main).
+💡 Crear y eliminar un nuevo repositorio local en un directorio.
+💡 Entender cómo opera git, a través de los stages: working area, staging, local repository &amp; remote repository.
+💡 Realizar un commit: comandos <strong>add</strong> y <strong>commit</strong>.
+💡 Ver el log de commits.
+💡 Ver el contenido de un commit.</p>
+<h1 id="ejercicios">Ejercicios</h1>
+<p>Una vez que tuvimos nuestro ambiente de desarrollo, comenzamos a realizar los ejercicios.
+Los ejercicios consistían en copiar el contenido y ejecutar pruebas por cuenta propia.
+El objetivo de estos era aprender a leer código de javascript, para ello se tenía que leer el código y entender lo que va haciendo paso a paso.</p>
+<p>Al finalizar los primeros 8 ejercicios en los cuales se abarcaron los temas:</p>
+<ul>
+<li>Objetos de JS</li>
+<li>Exportando funciones entre scripts con CommonJS.</li>
+<li>Diferentes formas de exportar funciones</li>
+<li>Clases y Objetos</li>
+<li>Modificación de clases</li>
+<li>EcmaScript Export Default</li>
+<li>EcmaScript Modules ESM</li>
+</ul>
+<p>Realizamos 2 ejercicios con la implementando los conocimientos adquiridos en los ejercicios de ejemplo.
+Los ejercicios consistían en realizar clases y métodos como complementos a un código que nos era proporcionado, además de realizar exportaciones usando ESM.</p>
+
+    </div>
+  </div>
+
+    <div class="footer">
+  
+  <div class="footer-social">
+    
+      <span class="social-icon social-icon-twitter">
+        <a href="https://twitter.com/RaulSalomon09" title="twitter" target="_blank" rel="noopener">
+          <img src="../../images/social/twitter.svg" width="24" height="24" alt="twitter"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-github">
+        <a href="https://github.com/RaulSalomonIgl" title="github" target="_blank" rel="noopener">
+          <img src="../../images/social/github.svg" width="24" height="24" alt="github"/>
+        </a>
+      </span>
+    
+  </div>
+  
+</div>
+  </div>
+
+  
+
+  
+
+  
+  <script type="text/javascript" src="../../js/bundle.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js"></script>
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+
+</body>
+</html>
